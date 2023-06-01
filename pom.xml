@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>caelum-estrutura-dados</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Archetype - caelum-estrutura-dados</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <java.version>11</java.version>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.failsafe.version>3.0.0</maven.failsafe.version>
+    <maven.surefire.version>3.0.0</maven.surefire.version>
+    <encoding>UTF-8</encoding>
+  </properties>
+  <dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.9.3</version>
+        <scope>test</scope>
+    </dependency>
+  </dependencies><build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.11.0</version>
+      <configuration>
+        <source>${java.version}</source>
+        <target>${java.version}</target>
+        <encoding>${encoding}</encoding>
+        <forceJavacCompilerUse>true</forceJavacCompilerUse>
+      </configuration>
+    </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-resources-plugin</artifactId>
+      <version>3.3.1</version>
+      <configuration>
+        <encoding>${encoding}</encoding>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+</project>
