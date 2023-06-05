@@ -1,5 +1,9 @@
 package br.com.caelum.ed.listaligada;
 
+/**
+ * A classe LinkedList faz o papel da nossa Lista Ligada dentro da biblioteca do Java. Ela possui os mesmos métodos que a ArrayList, e adiciona alguns outros, como o addFirst(Object), removeFirst(),
+ * addLast(Object) e removeLast(), que operam no começo e no m da Lista em tempo constante.
+ * */
 public class MyLinkedList {
     private Celula primeira;
     private Celula ultima;

@@ -42,3 +42,24 @@ do ArrayList e o da LinkedList.
 Perceba então que a principal diferença está na performance, e uma análise minuciosa deve ser feita em casos onde a performance é algo crítica e todos o pontos devem ser considerados.
 
 fonte: https://www.devmedia.com.br/diferenca-entre-arraylist-vector-e-linkedlist-em-java/29162
+
+## Trabalhando com Pilhas em Java 
+
+A semelhança fundamental entre as Listas e as Pilhas é que ambas devem armazenar os elementos
+de maneira sequencial. 
+
+Qual é a diferença entre uma Lista e uma Pilha? A diferença está nas operações destas duas estruturas de
+dados. As operações de uma Pilha são mais restritas do que as de uma Lista. Por exemplo, você pode
+adicionar ou remover um elemento em qualquer posição de uma Lista mas em uma Pilha você só pode
+adicionar ou remover do topo.
+
+Então, uma Lista é uma estrutura mais poderosa e mais genérica do que uma Pilha. A Pilha possui apenas
+um subconjunto de operações da Lista. Então o interessante é que para implementar uma Pilha podemos
+usar uma Lista. Isso mesmo! Se criarmos restrições sobre as operações da Lista, obteremos uma Pilha.
+
+Na biblioteca do Java existe uma classe que implementa a estrutura de dados de uma Pilha, esta
+classe chama-se ***Stack*** !
+
+## Trabalhando com Filas em Java
+
+
